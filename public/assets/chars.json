@@ -1,0 +1,80 @@
+[
+  {
+    "id": "jax-netrunner",
+    "name": "Jax the Quick-Hacker",
+    "race": "Nova Human",
+    "class": "Hacker Hero",
+    "hp": 10,
+    "ac": 13,
+    "stats": {"str": 10, "dex": 14, "con": 12, "int": 16, "wis": 10, "cha": 12},
+    "skills": ["Hacking", "Stealth"],
+    "backstory": "Jax used to work for a big company until he stole some secret mind-codes and ran away! Now the bad guy guards are chasing him, and his digital ghost leaves sparkly trails wherever he goes.",
+    "special": "Overclock hack: Bonus action, double prof on tech check (1/short rest)",
+    "portrait": "/assets/redesign/portraits/jax.png"
+  },
+  {
+    "id": "vira-mage",
+    "name": "Vira the Star Mage",
+    "race": "Void Elf",
+    "class": "Star Wizard",
+    "hp": 8,
+    "ac": 12,
+    "stats": {"str": 8, "dex": 14, "con": 10, "int": 16, "wis": 14, "cha": 10},
+    "skills": ["Arcana", "Perception"],
+    "backstory": "Vira was sent away from her home for learning strange star magic. Now a dream about a glowing dragon pulls her toward the center of the universe — and she can't ignore it!",
+    "special": "Entangle: Restrain target (DC 13 Wis save)",
+    "portrait": "/assets/redesign/portraits/vira.png"
+  },
+  {
+    "id": "krag-warrior",
+    "name": "Krag the Robot Smasher",
+    "race": "Mech Orc",
+    "class": "Robot Fighter",
+    "hp": 14,
+    "ac": 16,
+    "stats": {"str": 16, "dex": 10, "con": 16, "int": 8, "wis": 10, "cha": 8},
+    "skills": ["Athletics", "Intimidation"],
+    "backstory": "Krag grew up fighting in the underground battle arenas. A mysterious voice promised him endless adventures — and a real chance to be free!",
+    "special": "Overcharge smash: +1d6 dmg next attack (1/short rest)",
+    "portrait": "/assets/redesign/portraits/krag.png"
+  },
+  {
+    "id": "lena-support",
+    "name": "Lena the Healing Hero",
+    "race": "Nova Human",
+    "class": "Healing Hero",
+    "hp": 12,
+    "ac": 14,
+    "stats": {"str": 9, "dex": 12, "con": 14, "int": 12, "wis": 16, "cha": 14},
+    "skills": ["Medicine", "Persuasion"],
+    "backstory": "Lena is a brave doctor who heals people in the glowing streets of the big city. A patient once whispered a secret with their last breath: 'The dragon's heart is at the center of everything.'",
+    "special": "Neural mend: Heal 1d8 + wis mod HP (1/short rest)",
+    "portrait": "/assets/redesign/portraits/lena.png"
+  },
+  {
+    "id": "zeth-rogue",
+    "name": "Zeth the Shadow Jumper",
+    "race": "Void Elf",
+    "class": "Shadow Jumper",
+    "hp": 9,
+    "ac": 15,
+    "stats": {"str": 10, "dex": 16, "con": 11, "int": 13, "wis": 12, "cha": 11},
+    "skills": ["Stealth", "Acrobatics"],
+    "backstory": "Zeth is a sneaky treasure hunter who can slip through tiny holes in reality. He once stole a shiny scale from a sleeping dragon — now the dragon's mind follows his every move!",
+    "special": "Quantum step: Teleport 15ft (1/short rest)",
+    "portrait": "/assets/redesign/portraits/zeth.png"
+  },
+  {
+    "id": "grom-tank",
+    "name": "Grom the Shield Giant",
+    "race": "Mech Orc",
+    "class": "Shield Protector",
+    "hp": 16,
+    "ac": 18,
+    "stats": {"str": 17, "dex": 9, "con": 17, "int": 9, "wis": 11, "cha": 9},
+    "skills": ["Athletics", "Survival"],
+    "backstory": "Grom was born in the fiery forges and carries a shield as big as a door! He feels the ground shake and knows his hammer is meant to protect his friends from the great beast.",
+    "special": "Shield wall: Temp HP = level x 5 (1/short rest)",
+    "portrait": "/assets/redesign/portraits/grom.png"
+  }
+]

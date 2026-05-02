@@ -1,0 +1,32 @@
+[
+  {
+    "id": "glitch-imp",
+    "name": "Glitch Imp",
+    "hp": 8,
+    "ac": 12,
+    "stats": {"str": 8, "dex": 14, "con": 10, "int": 12, "wis": 10, "cha": 13},
+    "attacks": [{"name": "Mind Poke", "hit": "+4", "dmg": "1d4+2 psychic"}],
+    "special": "Glitch: 50% chance evade first attack",
+    "lore": "A sneaky trickster made of broken computer magic! It pops up where you least expect it and loves causing silly chaos."
+  },
+  {
+    "id": "neurodrake-hatchling",
+    "name": "Neurodrake Hatchling",
+    "hp": 25,
+    "ac": 14,
+    "stats": {"str": 14, "dex": 12, "con": 15, "int": 13, "wis": 12, "cha": 16},
+    "attacks": [{"name": "Plasma Bite", "hit": "+5", "dmg": "2d6+3 fire"}, {"name": "Mind Peek", "hit": "+6", "dmg": "2d8 psychic", "effect": "DC13 Wis save or charmed 1 turn"}],
+    "special": "Tail Swipe: AoE 1d6 to adjacent",
+    "lore": "A baby dragon made of glowing rainbow energy! It's curious about friendly minds — but its games can get a little too wild."
+  },
+  {
+    "id": "nexus-guard",
+    "name": "Nexus Guard Drone",
+    "hp": 18,
+    "ac": 15,
+    "stats": {"str": 15, "dex": 11, "con": 14, "int": 10, "wis": 10, "cha": 8},
+    "attacks": [{"name": "Laser Burst", "hit": "+4", "dmg": "1d10+2 energy"}],
+    "special": "Shield: +2 AC vs ranged",
+    "lore": "A floating robot guard that watches over the magic gateways. It shoots warning lasers at anyone who gets too close!"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "plasma-dagger",
+    "name": "Plasma Dagger",
+    "type": "melee",
+    "emoji": "⚔️",
+    "icon": "/assets/redesign/items/plasma-dagger.png",
+    "dmg": "1d4+2 slashing",
+    "hit": "+dex",
+    "special": "Ignite: +1d4 fire on crit",
+    "description": "A fiery little knife that glows with heat! It burns extra bright when you land a perfect hit. Deals 1d4+2 slashing damage, and adds 1d4 bonus fire damage on a critical hit."
+  },
+  {
+    "id": "neural-pistol",
+    "name": "Neural Pistol",
+    "type": "ranged",
+    "emoji": "⚔️",
+    "icon": "/assets/redesign/items/neural-pistol.png",
+    "dmg": "1d6+2 psychic",
+    "hit": "+dex",
+    "special": "Overload: +1d6 if target damaged",
+    "description": "A zappy mind-blaster pistol! It stings even harder when your target is already hurting. Deals 1d6+2 psychic damage, and adds 1d6 bonus damage if the target is already injured."
+  },
+  {
+    "id": "rift-shard",
+    "name": "Rift Shard",
+    "type": "consumable",
+    "emoji": "📜",
+    "icon": "/assets/redesign/items/rift-shard.png",
+    "effect": "Teleport 30ft or heal 1d6",
+    "description": "A glowing crystal that hums with sparkly magic energy. Use it to blink 30 feet away in a flash, or crush it in your hand to heal 1d6 hit points. One use only!"
+  }
+]

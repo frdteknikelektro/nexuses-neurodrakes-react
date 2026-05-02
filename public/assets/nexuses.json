@@ -1,0 +1,16 @@
+[
+  {
+    "id": "neon-hub",
+    "name": "Neon Hub",
+    "rooms": ["portal-chamber", "console-room", "void-rift", "corpsec-bay"],
+    "encounters": ["glitch-imp", "nexus-guard"],
+    "lore": "A bright and busy city hub where colorful light beams connect to far-away worlds. Heroes gather here to rest, trade gear, and plan their next big adventure!"
+  },
+  {
+    "id": "quantum-void",
+    "name": "Quantum Void",
+    "rooms": ["rift-tunnel", "energy-node", "wyrm-nest"],
+    "encounters": ["neurodrake-hatchling"],
+    "lore": "A swirling rainbow storm where anything can happen! Deep inside, baby dragons nest among the twinkling energy clouds — tread carefully or you might wake them up."
+  }
+]
