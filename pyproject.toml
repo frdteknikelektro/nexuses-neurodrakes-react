@@ -1,0 +1,56 @@
+[project]
+name = "hermes-plugin-nexuses-neurodrakes"
+version = "0.1.0"
+description = "Hermes plugin for Nexuses & Neurodrakes turn-based RPG"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/frdteknikelektro/nexuses-neurodrakes"
+
+[project.entry-points."hermes_agent.plugins"]
+nexuses-neurodrakes = "hermes_plugin_nexuses_neurodrakes"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# Map the flat layout at the repo root onto a real Python package
+# named ``hermes_plugin_nexuses_neurodrakes`` so ``pip install git+https://...``
+# (and therefore ``hermes plugins install <owner>/nexuses-neurodrakes``) produces a
+# working importable package. The existing flat symlink install
+# (``ln -sfn $(pwd) ~/.hermes/plugins/nexuses-neurodrakes``) keeps working because
+# Hermes imports the directory by path, not by distribution name.
+[tool.setuptools]
+packages = ["hermes_plugin_nexuses_neurodrakes"]
+package-dir = {"hermes_plugin_nexuses_neurodrakes" = "."}
+
+# Ship non-Python assets alongside the package
+[tool.setuptools.package-data]
+hermes_plugin_nexuses_neurodrakes = [
+    "plugin.yaml",
+    "README.md",
+    "PLUGIN_USAGE.md",
+    "skills/**/*",
+    "dist/**/*",
+    "public/**/*",
+    "assets/**/*",
+]
+
+# Don't pull the repo-root test/build junk into the installed package.
+[tool.setuptools.exclude-package-data]
+hermes_plugin_nexuses_neurodrakes = [
+    "__pycache__/*",
+    "*/__pycache__/*",
+    ".git/*",
+    ".idea/*",
+    "node_modules/*",
+    "src/*",
+    "*.log",
+]

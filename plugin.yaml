@@ -1,0 +1,29 @@
+name: nexuses-neurodrakes
+version: 0.1.0
+description: >-
+  Turn-based RPG "Nexuses & Neurodrakes" as a Hermes plugin. Launches a local
+  web server serving the React game and opens your browser. Single-player vs AI
+  Game Master. The game auto-builds on first launch if needed.
+author: nexuses-neurodrakes contributors
+homepage: https://github.com/frdteknikelektro/nexuses-neurodrakes
+provides_tools:
+  - nn_start
+  - nn_status
+  - nn_end
+provides_hooks:
+  - pre_llm_call
+requires_env:
+  - name: NN_PORT
+    description: >-
+      Optional. Port for the local HTTP server. Default 3456.
+    secret: false
+    default: "3456"
+  - name: NN_AUTO_OPEN_BROWSER
+    description: >-
+      Optional. Set to "0" to disable auto-opening browser. Default "1".
+    secret: false
+    default: "1"
+  - name: NN_NODE_PATH
+    description: >-
+      Optional. Path to Node.js binary. If unset, searches PATH for node.
+    secret: false
